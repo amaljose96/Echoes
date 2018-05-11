@@ -1,0 +1,278 @@
+
+#quadrangle{
+	height: 60.76vw;
+	color:#fff;
+	font-family: "eczar";
+	text-align: center;
+	font-size: 3em;
+	margin-top:8vw;
+}
+#topleft{
+	text-align: left;
+	background-image:url(../img/tiles/events.jpg);
+	margin-top:4.7180555555556vw;
+	margin-left:21.9444444444444vw;
+	width: 33.0923611111111vw;
+	height: 20.0736111111111vw;
+	z-index: 5;
+}
+#topright{
+	background-image:url(../img/tiles/farhaan.jpg);
+	margin-top:1.9027777777778vw;
+	margin-left:48.4604166666667vw;
+	width: 26.0416666666667vw;
+	height: 26.0416666666667vw;
+	z-index: 8;
+	text-align: right;
+}
+#bottomleft{
+	text-align: left;
+	background-image:url(../img/tiles/cp.jpg);
+	margin-top:24.7916666666667vw;
+	margin-left:25.4416666666667vw;
+	width: 26.0416666666667vw;
+	height: 26.0416666666667vw;
+	z-index: 7;
+}
+#bottomright{
+	background-image:url(../img/tiles/pronite2.jpg);
+	margin-top:27.9201388888889vw;
+	margin-left:44.9631944444444vw;
+	width: 33.0923611111111vw;
+	height: 20.0736111111111vw;
+	z-index: 6;
+	text-align: right;
+
+}
+.tile_element{
+	position: absolute;
+	box-shadow: 0 0 10px rgba(0,0,0,0.8);
+	padding: 20px;
+	color:#fff;
+	font-size: 0.5em;
+	font-family: 'bebas';
+	background-position: center;
+	background-size: cover;
+	cursor: pointer;
+}
+
+#diamond_holder{
+  height: 75.9902280130293vw;
+  display: none;
+}
+
+.diamond{
+  position: absolute;
+  box-shadow: 0 0 10px #000;
+  background-color: #fff;
+  color:#000;
+  font-size: 0.5em;
+  background-size: cover;
+}
+.diamond_left{
+  transform: rotate(-45deg);
+}
+.diamond_right{
+  transform: rotate(45deg);
+}
+#diamond1{
+  margin-left:37.6547231270358vw;
+  margin-top:21.8892508143322vw;
+  width: 17.785016286645vw;
+  height: 17.785016286645vw;
+  background-color: rgb(254,254,254);
+
+}
+#diamond2{
+  margin-left:37.6547231270358vw;
+  margin-top:21.8241042345277vw;
+  width: 17.8501628664495vw;
+  height: 17.8501628664495vw;
+  background-color: rgb(48,65,87);
+}
+#diamond3{
+  margin-left:35.8957654723127vw;
+  margin-top:20.1302931596091vw;
+  width: 20.2605863192182vw;
+  height: 20.2605863192182vw;
+  background-color: rgb(18,174,176);
+}
+#diamond4{
+  margin-left:39.1530944625407vw;
+  margin-top:23.3876221498371vw;
+  width: 15.700325732899vw;
+  height: 15.700325732899vw;
+  background-color: rgb(16,86,112);
+}
+#diamond5{
+  margin-left:32.3127035830619vw;
+  margin-top:16.8078175895765vw;
+  width: 25.0162866449511vw;
+  height: 25.0162866449511vw;
+  background-color: rgb(254,142,40);
+}
+#diamond6{
+  margin-left:38.8273615635179vw;
+  margin-top:23.1270358306189vw;
+  width: 16.1563517915309vw;
+  height: 16.1563517915309vw;
+  background-color: rgb(243,70,84);
+}
+#diamond7{
+  margin-left:37.3941368078176vw;
+  margin-top:21.8241042345277vw;
+  width: 17.8501628664495vw;
+  height: 17.8501628664495vw;
+  background-color: rgb(243,70,84);
+}
+#diamond8{
+  margin-left:39.6742671009772vw;
+  margin-top:23.9087947882736vw;
+  width: 14.9185667752443vw;
+  height: 14.9185667752443vw;
+  background-color: rgb(18,175,175);
+}
+#diamond_back{
+    margin-left:38.2410423452769vw;
+    margin-top:22.7361563517915vw;
+    width: 16.6775244299674vw;
+    height: 16.67752442996743vw;
+    background-color: rgb(0,0,0);
+}
+.diamond_overlay{
+  padding: 20px;
+  color:#fff;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  opacity: 0.7;
+	-webkit-text-stroke-color: #000;
+	-webkit-text-stroke-width: 0.5px;
+	text-stroke-color: #000;
+	text-stroke-width: 0.5px;
+	-webkit-text-fill-color: rgba(255, 255, 255,0.95)
+}
+.diamond_overlay::before{
+  content: "";
+  position: absolute;
+  width: 200%;
+  height: 200%;
+  top: -50%;
+  left: -50%;
+  z-index: -1;
+  background-size: cover;
+	background-position: center;
+}
+.diamond_overlay_left::before{
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.diamond_overlay_right::before{
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+.diamond_overlay:hover{
+  opacity: 1;
+}
+
+
+
+#do8::before{
+  background-image: url(../img/categories/music.jpg);
+}
+#do7::before{
+  background-image: url(../img/categories/dance.jpg);
+}
+#do6::before{
+  background-image: url(../img/categories/fashion.jpg);
+}
+#do5::before{
+  background-image: url(../img/categories/fine_art.jpg);
+}
+#do4::before{
+  background-image: url(../img/categories/literary.jpg);
+}
+#do3::before{
+  background-image: url(../img/categories/quizing.jpg);
+}
+#do2::before{
+  background-image: url(../img/categories/streetplay.jpg);
+}
+#do1::before{
+  background-image: url(../img/categories/informals.jpg);
+}
+#do0::before{
+}
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+  #diamond1{
+    margin-top:37.6547231270358vh;
+    margin-left:21.8892508143322vh;
+    width: 17.785016286645vh;
+    height: 17.785016286645vh;
+    background-color: rgb(254,254,254);
+
+  }
+  #diamond2{
+    margin-top:37.6547231270358vh;
+    margin-left:21.8241042345277vh;
+    width: 17.8501628664495vh;
+    height: 17.8501628664495vh;
+    background-color: rgb(48,65,87);
+  }
+  #diamond3{
+    margin-top:35.8957654723127vh;
+    margin-left:20.1302931596091vh;
+    width: 20.2605863192182vh;
+    height: 20.2605863192182vh;
+    background-color: rgb(18,174,176);
+  }
+  #diamond4{
+    margin-top:39.1530944625407vh;
+    margin-left:23.3876221498371vh;
+    width: 15.700325732899vh;
+    height: 15.700325732899vh;
+    background-color: rgb(16,86,112);
+  }
+  #diamond5{
+    margin-top:32.3127035830619vh;
+    margin-left:16.8078175895765vh;
+    width: 25.0162866449511vh;
+    height: 25.0162866449511vh;
+    background-color: rgb(254,142,40);
+  }
+  #diamond6{
+    margin-top:38.8273615635179vh;
+    margin-left:23.1270358306189vh;
+    width: 16.1563517915309vh;
+    height: 16.1563517915309vh;
+    background-color: rgb(243,70,84);
+  }
+  #diamond7{
+    margin-top:37.3941368078176vh;
+    margin-left:21.8241042345277vh;
+    width: 17.8501628664495vh;
+    height: 17.8501628664495vh;
+    background-color: rgb(243,70,84);
+  }
+  #diamond8{
+    margin-top:39.6742671009772vh;
+    margin-left:23.9087947882736vh;
+    width: 14.9185667752443vh;
+    height: 14.9185667752443vh;
+    background-color: rgb(18,175,175);
+  }
+  #diamond_back{
+    margin-top:38.2410423452769vh;
+    margin-left:22.7361563517915vh;
+    width: 16.6775244299674vh;
+    height: 16.67752442996743vh;
+    background-color: rgb(0,0,0);
+  }
+}
